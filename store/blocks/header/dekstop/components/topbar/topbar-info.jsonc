@@ -1,0 +1,44 @@
+{
+  // Top Bar / Info
+  "flex-layout.col#topbar-info": {
+    "props": {
+      "blockClass": "topbar-info"
+    },
+    "children": [
+      "link#topbar-info-preguntasFrecuentes",
+      "link#topbar-info-consultaSaldo",
+      "link#topbar-info-empresas",
+      "link#topbar-info-personas"
+    ]
+  },
+
+  // Top Bar / Info / Links
+  "link#topbar-info-preguntasFrecuentes": {
+    "props": {
+      "blockClass": "topbar-info-preguntasFrecuentes",
+      "href": "/preguntas-frecuentes",
+      "label": "Preguntas Frecuentes"
+    }
+  },
+  "link#topbar-info-consultaSaldo": {
+    "props": {
+      "blockClass": "topbar-info-consultaSaldo",
+      "href": "/",
+      "label": "Consulta Saldo"
+    }
+  },
+  "link#topbar-info-empresas": {
+    "props": {
+      "blockClass": "topbar-info-empresas",
+      "href": "/",
+      "label": "Personas"
+    }
+  },
+  "link#topbar-info-personas": {
+    "props": {
+      "blockClass": "topbar-info-personas",
+      "href": "/",
+      "label": "Empresas"
+    }
+  }
+}

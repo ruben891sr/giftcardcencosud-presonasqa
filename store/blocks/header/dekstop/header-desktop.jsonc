@@ -1,0 +1,37 @@
+{
+
+  "header-layout.desktop": {
+    "children": ["flex-layout.row#header-topBar", "sticky-layout#header-sticky"]
+  },
+
+  // Top Bar
+  "flex-layout.row#header-topBar": {
+    "props": {
+      "blockClass": "header-topBar",
+      "colSizing": "auto"
+    },
+    "children": ["flex-layout.col#topbar-logos", "flex-layout.col#topbar-info"]
+  },
+
+  // Main Header
+  "sticky-layout#header-sticky": {
+    "props": {
+      "blockClass": "header-sticky"
+    },
+    "children": ["flex-layout.row#header-sticky-content"]
+  },
+
+  "flex-layout.row#header-sticky-content": {
+    "props": {
+      "blockClass": "header-sticky-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header-logo",
+      "flex-layout.col#spacer",
+      "flex-layout.col#header-menu",
+      "flex-layout.col#header-accountCart"
+    ]
+  }
+
+}

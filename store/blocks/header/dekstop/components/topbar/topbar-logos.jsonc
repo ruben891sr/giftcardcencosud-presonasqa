@@ -1,0 +1,97 @@
+{
+  // Top Bar / Logos
+  "flex-layout.col#topbar-logos": {
+    "props": {
+      "blockClass": "topbar-logos",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#logo-partner-paris",
+      "image#logo-partner-jumbo",
+      "image#logo-partner-easy",
+      "image#logo-partner-santaisabel",
+      "image#logo-partner-american",
+      "image#logo-partner-umbrale",
+      "image#logo-partner-women"
+    ]
+  },
+
+  // Top Bar / Logos / Images
+  "image#logo-partner-paris": {
+    "props": {
+      "blockClass": "logo-partner-paris",
+      "src": "assets/header/logos-partner-paris.svg",
+      "alt": "Logo paris",
+      "link": {
+        "newTab": true,
+        "url": "https://www.paris.cl/"
+      }
+    }
+  },
+  "image#logo-partner-jumbo": {
+    "props": {
+      "blockClass": "logo-partner-jumbo",
+      "src": "assets/header/logos-partner-jumbo.svg",
+      "alt": "Logo jumbo",
+      "link": {
+        "newTab": true,
+        "url": "https://www.paris.cl/"
+      }
+    }
+  },
+  "image#logo-partner-easy": {
+    "props": {
+      "blockClass": "logo-partner-easy",
+      "src": "assets/header/logos-partner-easy.svg",
+      "alt": "Logo easy",
+      "link": {
+        "newTab": true,
+        "url": "https://www.paris.cl/"
+      }
+    }
+  },
+  "image#logo-partner-santaisabel": {
+    "props": {
+      "blockClass": "logo-partner-santaisabel",
+      "src": "assets/header/logos-partner-santaisabel.svg",
+      "alt": "Logo santaisabel",
+      "link": {
+        "newTab": true,
+        "url": "https://www.paris.cl/"
+      }
+    }
+  },
+  "image#logo-partner-american": {
+    "props": {
+      "blockClass": "logo-partner-american",
+      "src": "assets/header/logos-partner-american.svg",
+      "alt": "Logo american",
+      "link": {
+        "newTab": true,
+        "url": "https://www.paris.cl/"
+      }
+    }
+  },
+  "image#logo-partner-umbrale": {
+    "props": {
+      "blockClass": "logo-partner-umbrale",
+      "src": "assets/header/logos-partner-umbrale.svg",
+      "alt": "Logo umbrale",
+      "link": {
+        "newTab": true,
+        "url": "https://www.paris.cl/"
+      }
+    }
+  },
+  "image#logo-partner-women": {
+    "props": {
+      "blockClass": "logo-partner-women",
+      "src": "assets/header/logos-partner-women.svg",
+      "alt": "Logo women",
+      "link": {
+        "newTab": true,
+        "url": "https://www.paris.cl/"
+      }
+    }
+  }
+}

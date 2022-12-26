@@ -1,0 +1,163 @@
+{
+  // Home / sideBarContent / sideBar / Menu / Menu 4
+  "vtex.menu@2.x:menu#home-sideBarContent-sideBar-menu4": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu"
+    },
+    "children": [
+      "rich-text#home-sideBarContent-sideBar-menu4-title",
+      "menu-item#home-sideBarContent-sideBar-menu4-item1",
+      "menu-item#home-sideBarContent-sideBar-menu4-item2",
+      "menu-item#home-sideBarContent-sideBar-menu4-item3",
+      "menu-item#home-sideBarContent-sideBar-menu4-item4",
+      "menu-item#home-sideBarContent-sideBar-menu4-item5",
+      "menu-item#home-sideBarContent-sideBar-menu4-item6",
+      "menu-item#home-sideBarContent-sideBar-menu4-item7",
+      "menu-item#home-sideBarContent-sideBar-menu4-item8",
+      "menu-item#home-sideBarContent-sideBar-menu4-item9"
+    ]
+  },
+  // Home / sideBarContent / sideBar / Menu / Menu 4 / Title
+  "rich-text#home-sideBarContent-sideBar-menu4-title": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-title",
+      "text": "Marcas"
+    }
+  },
+  // Home / sideBarContent / sideBar / Menu / Menu 4 / Items
+  "menu-item#home-sideBarContent-sideBar-menu4-item1": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "cencosud",
+        "text": "Cencosud"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item2": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "paris",
+        "text": "Paris"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item3": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "umbrale",
+        "text": "Umbrale"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item4": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "starbucks",
+        "text": "Starbucks"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item5": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "belenus",
+        "text": "Belenus"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item6": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "contrapunto",
+        "text": "Contrapunto"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item7": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "american-eagle",
+        "text": "American Eagle"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item8": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item8",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "spotify",
+        "text": "Spotify"
+      }
+    }
+  },
+  "menu-item#home-sideBarContent-sideBar-menu4-item9": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-menu-item",
+      "id": "sideBar-menu4-item9",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "netflix",
+        "text": "Netflix"
+      }
+    }
+  }
+}

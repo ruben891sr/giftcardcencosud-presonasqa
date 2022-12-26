@@ -1,0 +1,338 @@
+/* Header / Top Bar / Logos */
+.imageElementLink--logo-partner-paris,
+.imageElementLink--logo-partner-jumbo,
+.imageElementLink--logo-partner-easy,
+.imageElementLink--logo-partner-santaisabel,
+.imageElementLink--logo-partner-american,
+.imageElementLink--logo-partner-umbrale,
+.imageElementLink--logo-partner-women,
+.imageElement--logo-partner-paris,
+.imageElement--logo-partner-jumbo,
+.imageElement--logo-partner-easy,
+.imageElement--logo-partner-santaisabel,
+.imageElement--logo-partner-american,
+.imageElement--logo-partner-umbrale,
+.imageElement--logo-partner-women {
+  display: block;
+}
+
+.imageElement--logo-partner-paris {
+  width: 31px;
+  height: 100%;
+  margin-top: 2px;
+}
+
+.imageElement--logo-partner-jumbo {
+  width: 45px;
+  height: 100%;
+}
+
+.imageElement--logo-partner-easy {
+  width: 38px;
+  height: 100%;
+  margin-top: 3px;
+}
+
+.imageElement--logo-partner-santaisabel {
+  width: 83px;
+  height: 100%;
+  margin-bottom: 1px;
+}
+
+.imageElement--logo-partner-american {
+  width: 138px;
+  height: 100%;
+}
+
+.imageElement--logo-partner-umbrale {
+  width: 56px;
+  height: 100%;
+  margin-bottom: 1px;
+}
+
+.imageElement--logo-partner-women {
+  width: 105px;
+  height: 100%;
+  margin-bottom: 1px;
+}
+
+/* Header / Main Header / Logo */
+.logoLink,
+.sizeDesktop,
+.logoImage {
+  display: block;
+}
+
+.sizeDesktop {
+  max-width: initial !important;
+  max-height: initial !important;
+  min-width: initial !important;
+  padding: 0;
+}
+
+.logoImage {
+  width: 75px;
+  height: 100%;
+}
+
+/* Home / sideBarContent / Content / Infocards */
+.infoCardTextContainer--home-sideBarContent-content-infocard,
+.infoCardImageContainer--home-sideBarContent-content-infocard {
+  width: auto !important;
+  padding: 0 1rem 0 0;
+}
+
+.infoCardHeadline--home-sideBarContent-content-infocard {
+  color: #377f80;
+  font-size: 1.1em;
+  font-family: "OpenSans-Bold";
+  text-transform: uppercase;
+  margin: 0.7rem 0 0 0;
+}
+
+.infoCardSubhead--home-sideBarContent-content-infocard {
+  color: #8f8f8f;
+  color: #8f8f8f;
+  margin: 0.7rem 0 0.9rem 0;
+}
+
+.infoCardContainer--home-sideBarContent-content-infocard {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-infocard {
+  margin: 0;
+}
+
+.infoCardImageContainer--home-sideBarContent-content-infocard {
+  height: 4rem;
+}
+
+.infoCardImage--home-sideBarContent-content-infocard {
+  height: 100%;
+  width: 60px;
+  object-fit: initial !important;
+  display: block;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-infocard :global(.vtex-button) {
+  background-color: #377f80;
+  min-height: auto;
+  border: 0;
+  border-radius: 50px;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-infocard :global(.vtex-button__label) {
+  text-transform: initial;
+  padding: 0.4rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-infocard {
+  display: none;
+}
+
+/* Home / sideBarContent / Content / Products-Carousel */
+.infoCardContainer--home-sideBarContent-content-slider-images-items {
+  flex-direction: column-reverse;
+  background-color: transparent;
+  padding: 0 1.5rem;
+}
+
+.infoCardTextContainer--home-sideBarContent-content-slider-images-items,
+.infoCardImageContainer--home-sideBarContent-content-slider-images-items {
+  width: 100% !important;
+}
+
+.infoCardHeadline--home-sideBarContent-content-slider-images-items {
+  margin: 0;
+  line-height: 1;
+  font-size: 0.9em;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #fff;
+}
+
+.infoCardTextContainer--home-sideBarContent-content-slider-images-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-slider-images-items :global(.vtex-button) {
+  border: 1px solid #fff;
+  background-color: transparent;
+  min-height: auto !important;
+  border-radius: 50px;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-slider-images-items :global(.vtex-button__label) {
+  text-transform: initial;
+  padding: 0.7rem 2.5rem !important;
+  font-size: 0.9em;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-slider-images-items {
+  margin: 0.7rem 0 0 0;
+}
+
+.infoCardContainer--home-sideBarContent-content-gallery-item {
+  position: relative;
+  padding: 0;
+  margin: 0.5rem;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.infoCardContainer--gallery-item1,
+.infoCardContainer--gallery-item4 {
+  margin-left: 0;
+}
+
+.infoCardContainer--gallery-item3,
+.infoCardContainer--gallery-item6 {
+  margin-right: 0;
+}
+
+.infoCardTextContainer--home-sideBarContent-content-gallery-item {
+  position: absolute;
+  width: 100% !important;
+  padding: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  right: 0;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.infoCardTextContainer--home-sideBarContent-content-gallery-item::before {
+  content: "";
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6685267857142857) 0%,
+      rgba(0, 0, 0, 0) 60%);
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.infoCardTextContainer--home-sideBarContent-content-gallery-item,
+.infoCardImageContainer--home-sideBarContent-content-gallery-item {
+  width: auto;
+}
+
+.infoCardImage--home-sideBarContent-content-gallery-item {
+  height: 15rem;
+  width: 100%;
+  display: block;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-gallery-item :global(.vtex-button) {
+  border: 1px solid #fff;
+  line-height: 1;
+  padding: 0.5rem 1.5rem 0.5rem 2.7rem;
+  border-radius: 50px;
+  background-color: transparent;
+  min-height: initial;
+  position: relative;
+  transition: all .5s ease;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-gallery-item :global(.vtex-button):hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-gallery-item :global(.vtex-button)::before {
+  content: '';
+  background-image: url(assets/icons/home-gallery.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 1.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all .5s ease;
+}
+
+.infoCardCallActionContainer--home-sideBarContent-content-gallery-item :global(.vtex-button__label) {
+  padding: 0 !important;
+  color: #fff;
+  font-size: 0.9em;
+  text-transform: initial;
+  transition: all .5s ease;
+}
+
+
+
+/* Footer / Main Footer */
+.imageElement--mainFooter-logos-giftcard {
+  display: block;
+  width: 100px; 
+}
+
+.imageElement--mainFooter-logos-paris,
+.imageElement--mainFooter-logos-jumbo,
+.imageElement--mainFooter-logos-santaIsabel,
+.imageElement--mainFooter-logos-easy {
+  display: block;
+  width: 40px;
+  margin: 0 0.2rem;
+}
+
+.imageElement--mainFooter-logos-american {
+  display: block;
+  width: 140px;
+}
+
+.imageElement--mainFooter-logos-umbrale {
+  width: 59px;
+  margin-top: -2px;
+  margin: 0 1rem;
+}
+
+.imageElement--mainFooter-logos-women {
+  display: block;
+  width: 106px;
+  margin-top: -2px;
+}
+
+
+
+/* Footer / Sub footer */
+.imageElement--subFooter-metodosPago {
+  display: block;
+  width: 300px;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-left: 1rem;
+}
+
+
+/* Ajustes Container Vtex */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 75rem !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    max-width: 90rem !important;
+  }
+}

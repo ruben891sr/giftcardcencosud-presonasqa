@@ -1,0 +1,65 @@
+{
+  // Main Header / Menu
+  "flex-layout.col#header-menu": {
+    "props": {
+      "blockClass": "header-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#header-menu"]
+  },
+
+  "vtex.menu@2.x:menu#header-menu": {
+    "props": {
+      "blockClass": "header-menu"
+    },
+    "children": ["menu-item#comoComprar", "menu-item#queEs", "menu-item#ayuda"]
+  },
+
+  // Main Header / Menu / Items
+  "menu-item#comoComprar": {
+    "props": {
+      "blockClass": "header-menu-items",
+      "id": "menu-item-comoComprar",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "comoComprar",
+        "text": "Como comprar"
+      }
+    }
+  },
+
+  "menu-item#queEs": {
+    "props": {
+      "blockClass": "header-menu-items",
+      "id": "menu-item-queEs",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "queEs",
+        "text": "¿Qué es Gift Card Cencosud?"
+      }
+    }
+  },
+
+  "menu-item#ayuda": {
+    "props": {
+      "blockClass": "header-menu-items",
+      "id": "menu-item-ayuda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "ayuda",
+        "text": "Ayuda"
+      }
+    }
+  }
+}

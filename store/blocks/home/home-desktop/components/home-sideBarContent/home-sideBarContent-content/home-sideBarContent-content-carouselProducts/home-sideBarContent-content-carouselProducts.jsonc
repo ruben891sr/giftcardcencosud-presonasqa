@@ -1,0 +1,91 @@
+{
+
+  // Home / sideBarContent / Content / Slider / Title
+  "rich-text#home-sideBarContent-content-slider-title": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-slider-title",
+      "text": "Gift cards **top en ventas**"
+    }
+  },
+
+  // Home / sideBarContent / Content / Slider / SliderLayout
+  "slider-layout#home-sideBarContent-content-slider-images": {
+    "props": {
+      "blockClass": ["home-sideBarContent-content-slider-images"],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "info-card#home-sideBarContent-content-slider-images-items1",
+      "info-card#home-sideBarContent-content-slider-images-items2",
+      "info-card#home-sideBarContent-content-slider-images-items3",
+      "info-card#home-sideBarContent-content-slider-images-items4",
+      "info-card#home-sideBarContent-content-slider-images-items1",
+      "info-card#home-sideBarContent-content-slider-images-items2"
+    ]
+  },
+
+
+  // Home / sideBarContent / Content / Slider / SliderLayout / Items
+  "info-card#home-sideBarContent-content-slider-images-items1": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-slider-images-items",
+      "id": "home-sideBarContent-content-slider-images-items1",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/home/carousel-products/carousel-products-card1.png",
+      "headline": "Nº9 en el top",
+      "callToActionText": "La quiero",
+      "callToActionUrl": "/",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#home-sideBarContent-content-slider-images-items2": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-slider-images-items",
+      "id": "home-sideBarContent-content-slider-images-items2",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/home/carousel-products/carousel-products-card2.png",
+      "headline": "Nº9 en el top",
+      "callToActionText": "La quiero",
+      "callToActionUrl": "/",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#home-sideBarContent-content-slider-images-items3": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-slider-images-items",
+      "id": "home-sideBarContent-content-slider-images-items3",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/home/carousel-products/carousel-products-card3.png",
+      "headline": "Nº9 en el top",
+      "callToActionText": "La quiero",
+      "callToActionUrl": "/",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#home-sideBarContent-content-slider-images-items4": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-slider-images-items",
+      "id": "home-sideBarContent-content-slider-images-items4",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/home/carousel-products/carousel-products-card4.png",
+      "headline": "Nº9 en el top",
+      "callToActionText": "La quiero",
+      "callToActionUrl": "/",
+      "textAlignment": "left"
+    }
+  }
+}

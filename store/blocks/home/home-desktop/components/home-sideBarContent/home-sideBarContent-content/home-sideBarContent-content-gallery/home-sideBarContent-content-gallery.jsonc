@@ -1,0 +1,94 @@
+{
+  // Home / sideBarContent / Content / Gallery / Title
+  "rich-text#home-sideBarContent-content-gallery-title": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-gallery-title",
+      "text": "Las **Gift cards** perfectas para **cada ocasión**"
+    }
+  },
+
+  // Home / sideBarContent / Content / Gallery
+  "info-card#home-sideBarContent-content-gallery-item1": {
+    "props": {
+      "blockClass": ["home-sideBarContent-content-gallery-item", "gallery-item1"],
+      "id": "home-sideBarContent-content-gallery-item1",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/home/home-gallery/home-gallery1.jpg",
+      "callToActionText": "Venta empresas",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home-sideBarContent-content-gallery-item2": {
+    "props": {
+        "blockClass": ["home-sideBarContent-content-gallery-item", "gallery-item2"],
+        "id": "home-sideBarContent-content-gallery-item2",
+        "isFullModeStyle": false,
+        "textPosition": "center",
+        "imageUrl": "assets/home/home-gallery/home-gallery2.jpg",
+        "callToActionText": "Marcas moda",
+        "callToActionUrl": "/",
+        "textAlignment": "center"
+      } 
+  },
+  "info-card#home-sideBarContent-content-gallery-item3": {
+    "props": {
+        "blockClass": ["home-sideBarContent-content-gallery-item", "gallery-item3"],
+        "id": "home-sideBarContent-content-gallery-item3",
+        "isFullModeStyle": false,
+        "textPosition": "center",
+        "imageUrl": "assets/home/home-gallery/home-gallery3.jpg",
+        "callToActionText": "Cuidados Covid",
+        "callToActionUrl": "/",
+        "textAlignment": "center"
+      }
+  },
+  "info-card#home-sideBarContent-content-gallery-item4": {
+    "props": {
+        "blockClass": ["home-sideBarContent-content-gallery-item", "gallery-item4"],
+        "id": "home-sideBarContent-content-gallery-item4",
+        "isFullModeStyle": false,
+        "textPosition": "center",
+        "imageUrl": "assets/home/home-gallery/home-gallery4.jpg",
+        "callToActionText": "Toda Ocasión",
+        "callToActionUrl": "/",
+        "textAlignment": "center"
+      }
+  },
+  "info-card#home-sideBarContent-content-gallery-item5": {
+    "props": {
+        "blockClass": ["home-sideBarContent-content-gallery-item", "gallery-item5"],
+        "id": "home-sideBarContent-content-gallery-item5",
+        "isFullModeStyle": false,
+        "textPosition": "center",
+        "imageUrl": "assets/home/home-gallery/home-gallery5.jpg",
+        "callToActionText": "Felicitaciones",
+        "callToActionUrl": "/",
+        "textAlignment": "center"
+      }
+  },
+  "info-card#home-sideBarContent-content-gallery-item6": {
+    "props": {
+        "blockClass": ["home-sideBarContent-content-gallery-item", "gallery-item6"],
+        "id": "home-sideBarContent-content-gallery-item6",
+        "isFullModeStyle": false,
+        "textPosition": "center",
+        "imageUrl": "assets/home/home-gallery/home-gallery6.jpg",
+        "callToActionText": "Cumpleaños",
+        "callToActionUrl": "/",
+        "textAlignment": "center"
+      }
+  },
+
+
+
+  // Home / sideBarContent / Content / Gallery / See More
+  "link#home-sideBarContent-content-gallery-seeMore": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-gallery-seeMore",
+      "href": "/",
+      "label": "Ver más"
+    }
+  }
+}

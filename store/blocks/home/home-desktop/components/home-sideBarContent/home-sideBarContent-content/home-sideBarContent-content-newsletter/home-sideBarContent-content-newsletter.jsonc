@@ -1,0 +1,23 @@
+{
+    "rich-text#home-sideBarContent-content-newsletter-title": {
+        "props": {
+            "blockClass": "home-sideBarContent-content-newsletter-title",
+            "text": "Suscríbete para recibir **ofertas y novedades**"
+        }
+    },
+
+    "rich-text#home-sideBarContent-content-newsletter-email": {
+        "props": {
+            "blockClass": "home-sideBarContent-content-newsletter-email",
+            "text": "Email"
+        }
+    },
+
+    "rich-text#home-sideBarContent-content-newsletter-submit": {
+        "props": {
+            "blockClass": "home-sideBarContent-content-newsletter-submit",
+            "text": "Enviar"
+        }
+    }
+
+}

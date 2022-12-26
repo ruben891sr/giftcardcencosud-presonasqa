@@ -1,0 +1,17 @@
+{
+  // Main Header / Logo
+  "flex-layout.col#header-logo": {
+    "props": {
+      "blockClass": "header-logo"
+    },
+    "children": ["logo"]
+  },
+
+  "logo": {
+    "props": {
+      "href": "/",
+      "title": "Logo Gift Card Cencosud",
+      "url": "assets/logo_giftCard.svg"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "store.custom#preguntas-frecuentes": {
+    "blocks": [
+      "responsive-layout.desktop#nosotros",
+      "responsive-layout.phone#nosotros"
+    ]
+  },
+  "responsive-layout.desktop#nosotros": {
+    "children": [
+    ]
+  },
+  "responsive-layout.phone#nosotros": {
+    "children": [
+    ]
+  }
+}

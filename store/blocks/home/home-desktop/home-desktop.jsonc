@@ -1,0 +1,19 @@
+{
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#home-mainSlider",
+      "flex-layout.row#home-sideBarContent"
+    ]
+  },
+
+  // Home / SideBar - Content
+  "flex-layout.row#home-sideBarContent": {
+    "props": {
+      "blockClass": "home-sideBarContent"
+    },
+    "children": [
+      "flex-layout.col#home-sideBarContent-sideBar",
+      "flex-layout.col#home-sideBarContent-content"
+    ]
+  }
+}

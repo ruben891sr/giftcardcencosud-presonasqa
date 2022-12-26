@@ -1,0 +1,22 @@
+.label {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'OpenSans-Medium';
+    font-weight: bold;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.label::before {
+    content: '';
+    background-image: url(assets/icons/user.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+} 

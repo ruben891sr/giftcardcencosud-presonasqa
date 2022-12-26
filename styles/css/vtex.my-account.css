@@ -1,0 +1,29 @@
+/* Home / sideBarContent / Content / Infocards */
+:global(.vtex-flex-layout-0-x-flexRowContent--home-sideBarContent-content-infocards > div):nth-child(3) :global(.vtex-store-components-3-x-infoCardImage) {
+    width: 51px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-sideBarContent-content-infocards > div):nth-child(4) :global(.vtex-store-components-3-x-infoCardImage) {
+    width: 84px
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-sideBarContent-content-infocards > div):nth-child(4) :global(.vtex-store-components-3-x-infoCardTextContainer--home-sideBarContent-content-infocard) {
+    padding-right: 0;
+}
+
+
+
+
+/* Home / sideBarContent / Content / Products-Carousel */
+:global(.vtex-flex-layout-0-x-flexCol--home-sideBarContent-content-gallery > .vtex-flex-layout-0-x-flexColChild--home-sideBarContent-content-gallery):nth-child(1),
+:global(.vtex-flex-layout-0-x-flexCol--home-sideBarContent-content-gallery > .vtex-flex-layout-0-x-flexColChild--home-sideBarContent-content-gallery):nth-child(6) {
+    width: 50%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--home-sideBarContent-content-gallery > .vtex-flex-layout-0-x-flexColChild--home-sideBarContent-content-gallery):nth-child(2),
+:global(.vtex-flex-layout-0-x-flexCol--home-sideBarContent-content-gallery > .vtex-flex-layout-0-x-flexColChild--home-sideBarContent-content-gallery):nth-child(3),
+:global(.vtex-flex-layout-0-x-flexCol--home-sideBarContent-content-gallery > .vtex-flex-layout-0-x-flexColChild--home-sideBarContent-content-gallery):nth-child(4),
+:global(.vtex-flex-layout-0-x-flexCol--home-sideBarContent-content-gallery > .vtex-flex-layout-0-x-flexColChild--home-sideBarContent-content-gallery):nth-child(5) {
+    width: 25%;
+}
+

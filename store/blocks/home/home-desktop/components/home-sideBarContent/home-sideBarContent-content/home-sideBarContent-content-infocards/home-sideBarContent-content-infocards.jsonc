@@ -1,0 +1,62 @@
+{
+  // Home / sideBarContent / Content / Infocards
+  "info-card#libertad-elegir": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-infocard",
+      "id": "home-sideBarContent-content-infocard-libertad-elegir",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/home-icon-1.svg",
+      "headline": "Libertad de elegir",
+      "subhead": "Quién la reciba puede usarla en Jumbo, Santa Isabel, Easy, Paris, Paris.cl, Umbrale, Women'secret y American eagle.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#cien-sustentable": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-infocard",
+      "id": "home-sideBarContent-content-infocard-libertad-elegir",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/home-icon-2.svg",
+      "headline": "Ayuda al planeta",
+      "subhead": "Elige formato 100% Digital y contribuye así con el cuidado del medio ambiente.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#facil-usar": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-infocard",
+      "id": "home-sideBarContent-content-infocard-libertad-elegir",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/home-icon-3.svg",
+      "headline": "Fácil de usar",
+      "subhead": "Muestra tu Gift Card desde nuestra App Mi Gift Card Cencosud, desde la pantalla de tu celular o bien físicamente.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#facil-comprar": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-infocard",
+      "id": "home-sideBarContent-content-infocard-libertad-elegir",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/home-icon-4.svg",
+      "headline": "Fácil de comprar",
+      "subhead": "Compra cuando quieras sin necesidad de contactar a un ejecutivo. Compra con tarjeta de crédito, débito o transferencia bancaria.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "left"
+    }
+  }
+}

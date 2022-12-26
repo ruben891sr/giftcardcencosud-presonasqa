@@ -1,0 +1,10 @@
+{
+  // Main Header / Account-Cart
+  "flex-layout.col#header-accountCart": {
+    "props": {
+      "blockClass": "header-accountCart",
+      "preventVerticalStretch": true
+    },
+    "children": ["login", "minicart.v2"]
+  }
+}

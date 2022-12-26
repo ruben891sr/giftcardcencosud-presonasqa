@@ -1,0 +1,138 @@
+/* Home / sideBarContent / Side Bar / Menu */
+.paragraph--home-sideBarContent-sideBar-title {
+    text-transform: uppercase;
+    color: #377f80;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #377f80;
+    font-family: 'OpenSans-Light';
+}
+
+.container--home-sideBarContent-sideBar-title {
+    display: block;
+}
+
+.paragraph--home-sideBarContent-sideBar-menu-title {
+    margin: 0 0 .5rem 0;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+    font-size: 1.1em;
+    line-height: 1;
+    color: #377f80;
+}
+
+
+/* Home / sideBarContent / Content / Carousel-Products */
+.container--home-sideBarContent-content-slider-title {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.paragraph--home-sideBarContent-content-slider-title {
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    color: #377f80;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 1.5rem;
+    font-family: 'OpenSans-Light';
+}
+
+.paragraph--home-sideBarContent-content-slider-title::before {
+    content: '';
+    height: 1px;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #377f80;
+}
+
+
+/* Home / sideBarContent / Content / Gallery */
+.container--home-sideBarContent-content-gallery-title {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.paragraph--home-sideBarContent-content-gallery-title {
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    color: #377f80;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 1.5rem;
+    font-family: 'OpenSans-Light';
+}
+
+.paragraph--home-sideBarContent-content-gallery-title::before {
+    content: '';
+    height: 1px;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #377f80;
+}
+
+
+/* Home / sideBarContent / Content / Newsletter */
+.paragraph--home-sideBarContent-content-newsletter-title {
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    color: #377f80;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0 1.5rem;
+    background-color: #fff;
+    font-family: 'OpenSans-Light';
+}
+
+.paragraph--home-sideBarContent-content-newsletter-email {
+    margin: 0;
+    font-family: 'OpenSans-Bold';
+    padding: 0.8rem 20rem 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: .9em;
+    line-height: 1;
+}
+
+.paragraph--home-sideBarContent-content-newsletter-submit {
+    margin-left: 1rem;
+    font-family: 'OpenSans-Bold';
+    background-color: #377f80;
+    padding: 0.8rem 3rem;
+    line-height: 1;
+    border-radius: 50px;
+    color: #fff;
+}
+
+
+
+
+/* Footer / Main Footer */
+.paragraph--mainFooter-title {
+    margin-top: 0;
+    line-height: 1;
+    color: #377f80;
+    font-family: 'OpenSans-Bold';
+    font-size: 1.2em;
+}
+
+
+/* Footer / Sub Footer */
+.paragraph--subFooter-metodosPago,
+.paragraph--subFooter-derechos {
+    color: #fff;
+}

@@ -1,0 +1,126 @@
+{
+  // Home / sideBarContent / Content
+  "flex-layout.col#home-sideBarContent-content": {
+    "props": {
+      "blockClass": "home-sideBarContent-content",
+      "width": "80%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#home-sideBarContent-content-infocards",
+      "flex-layout.row#home-sideBarContent-content-slider",
+      "flex-layout.row#home-sideBarContent-content-gallery",
+      "flex-layout.row#home-sideBarContent-content-newsletter"
+    ]
+  },
+
+  // Home / sideBarContent / Content / Infocards
+  "flex-layout.row#home-sideBarContent-content-infocards": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-infocards",
+      "fullWidth": true
+    },
+    "children": [
+      "info-card#libertad-elegir",
+      "info-card#cien-sustentable",
+      "info-card#facil-usar",
+      "info-card#facil-comprar"
+    ]
+  },
+
+  // Home / sideBarContent / Content / Slider
+  "flex-layout.row#home-sideBarContent-content-slider": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-slider",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#home-sideBarContent-content-slider-title",
+      "slider-layout#home-sideBarContent-content-slider-images"
+    ]
+  },
+
+  // Home / sideBarContent / Content / Gallery
+  "flex-layout.row#home-sideBarContent-content-gallery": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-gallery",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#home-sideBarContent-content-gallery-title",
+      "flex-layout.col#home-sideBarContent-content-gallery",
+      "flex-layout.col#home-sideBarContent-content-gallery-seeMore"
+    ]
+  },
+
+  "flex-layout.col#home-sideBarContent-content-gallery-title": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-gallery-title",
+      "colSizing": "auto"
+    },
+    "children": ["rich-text#home-sideBarContent-content-gallery-title"]
+  },
+
+  "flex-layout.col#home-sideBarContent-content-gallery": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-gallery",
+      "colSizing": "auto"
+    },
+    "children": [
+      "info-card#home-sideBarContent-content-gallery-item1",
+      "info-card#home-sideBarContent-content-gallery-item2",
+      "info-card#home-sideBarContent-content-gallery-item3",
+      "info-card#home-sideBarContent-content-gallery-item4",
+      "info-card#home-sideBarContent-content-gallery-item5",
+      "info-card#home-sideBarContent-content-gallery-item6"
+    ]
+  },
+
+  "flex-layout.col#home-sideBarContent-content-gallery-seeMore": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-gallery-seeMore",
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#home-sideBarContent-content-gallery-seeMore"
+    ]
+  },
+
+
+  // Home / sideBarContent / Content / Newsletter
+  "flex-layout.row#home-sideBarContent-content-newsletter": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-newsletter",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#home-sideBarContent-content-newsletter-title",
+      "flex-layout.col#home-sideBarContent-content-newsletter"
+    ]
+  },
+
+  "flex-layout.col#home-sideBarContent-content-newsletter-title": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-newsletter-title",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#home-sideBarContent-content-newsletter-title"
+    ]
+  },
+
+  "flex-layout.col#home-sideBarContent-content-newsletter": {
+    "props": {
+      "blockClass": "home-sideBarContent-content-newsletter",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#home-sideBarContent-content-newsletter-email",
+      "rich-text#home-sideBarContent-content-newsletter-submit"
+    ]
+  }
+
+}

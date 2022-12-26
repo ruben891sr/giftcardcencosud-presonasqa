@@ -1,0 +1,538 @@
+{
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#mainFooter", "flex-layout.row#subFooter"]
+  },
+
+  // Main Footer
+  "flex-layout.row#mainFooter": {
+    "props": {
+      "blockClass": "mainFooter",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mainFooter-logos",
+      "flex-layout.col#mainFooter-sobreNosotros",
+      "flex-layout.col#mainFooter-productosServicios",
+      "flex-layout.col#mainFooter-ayuda",
+      "flex-layout.col#mainFooter-cuenta"
+    ]
+  },
+
+  // Main Footer / Logos
+  "flex-layout.col#mainFooter-logos": {
+    "props": {
+      "blockClass": "mainFooter-col"
+    },
+    "children": [
+      "flex-layout.row#mainFooter-logos-giftCard",
+      "flex-layout.row#mainFooter-logos-pjea",
+      "flex-layout.row#mainFooter-logos-auw"
+    ]
+  },
+
+  "flex-layout.row#mainFooter-logos-giftCard": {
+    "props": {
+      "blockClass": "mainFooter-logos-giftCard",
+      "colSizing": "auto"
+    },
+    "children": ["image#mainFooter-logos-giftcard"]
+  },
+  "flex-layout.row#mainFooter-logos-pjea": {
+    "props": {
+      "blockClass": "mainFooter-logos-pjea",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#mainFooter-logos-paris",
+      "image#mainFooter-logos-jumbo",
+      "image#mainFooter-logos-easy",
+      "image#mainFooter-logos-santaIsabel"
+    ]
+  },
+  "flex-layout.row#mainFooter-logos-auw": {
+    "props": {
+      "blockClass": "mainFooter-logos-auw",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#mainFooter-logos-american",
+      "image#mainFooter-logos-umbrale",
+      "image#mainFooter-logos-women"
+    ]
+  },
+
+  "image#mainFooter-logos-giftcard": {
+    "props": {
+      "blockClass": "mainFooter-logos-giftcard",
+      "src": "assets/footer/mainFooter-logos-giftcard.svg",
+      "alt": "giftcard",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+  "image#mainFooter-logos-paris": {
+    "props": {
+      "blockClass": "mainFooter-logos-paris",
+      "src": "assets/footer/mainFooter-logos-paris.svg",
+      "alt": "paris",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+  "image#mainFooter-logos-jumbo": {
+    "props": {
+      "blockClass": "mainFooter-logos-jumbo",
+      "src": "assets/footer/mainFooter-logos-jumbo.svg",
+      "alt": "jumbo",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+  "image#mainFooter-logos-easy": {
+    "props": {
+      "blockClass": "mainFooter-logos-easy",
+      "src": "assets/footer/mainFooter-logos-easy.svg",
+      "alt": "easy",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+  "image#mainFooter-logos-santaIsabel": {
+    "props": {
+      "blockClass": "mainFooter-logos-santaIsabel",
+      "src": "assets/footer/mainFooter-logos-santaIsabel.svg",
+      "alt": "santaIsabel",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+  "image#mainFooter-logos-american": {
+    "props": {
+      "blockClass": "mainFooter-logos-american",
+      "src": "assets/footer/mainFooter-logos-american.svg",
+      "alt": "american",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+  "image#mainFooter-logos-umbrale": {
+    "props": {
+      "blockClass": "mainFooter-logos-umbrale",
+      "src": "assets/footer/mainFooter-logos-umbrale.svg",
+      "alt": "umbrale",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+  "image#mainFooter-logos-women": {
+    "props": {
+      "blockClass": "mainFooter-logos-women",
+      "src": "assets/footer/mainFooter-logos-women.svg",
+      "alt": "women",
+      "url": {
+        "link": "/",
+        "newTab": true
+      }
+    }
+  },
+
+  // Main Footer / Sobre Nosotros
+  "flex-layout.col#mainFooter-sobreNosotros": {
+    "props": {
+      "blockClass": "mainFooter-col"
+    },
+    "children": ["vtex.menu@2.x:menu#mainFooter-sobreNosotros"]
+  },
+
+  "vtex.menu@2.x:menu#mainFooter-sobreNosotros": {
+    "props": {
+      "blockClass": "mainFooter-menu"
+    },
+    "children": [
+      "rich-text#mainFooter-sobreNosotros",
+      "menu-item#mainFooter-sobreNosotros-paris",
+      "menu-item#mainFooter-sobreNosotros-jumbo",
+      "menu-item#mainFooter-sobreNosotros-santaIsabel",
+      "menu-item#mainFooter-sobreNosotros-easy"
+    ]
+  },
+
+  "rich-text#mainFooter-sobreNosotros": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "Sobre nosotros"
+    }
+  },
+
+  "menu-item#mainFooter-sobreNosotros-paris": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-paris",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "paris",
+        "text": "Paris"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-sobreNosotros-jumbo": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-jumbo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "jumbo",
+        "text": "Jumbo"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-sobreNosotros-santaIsabel": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-santaIsabel",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "santa-isabel",
+        "text": "Santa isabel"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-sobreNosotros-easy": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-easy",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "easy",
+        "text": "Easy"
+      }
+    }
+  },
+
+  // Main Footer / Productos y servicios
+  "flex-layout.col#mainFooter-productosServicios": {
+    "props": {
+      "blockClass": "mainFooter-col"
+    },
+    "children": ["vtex.menu@2.x:menu#mainFooter-productosServicios"]
+  },
+
+  "vtex.menu@2.x:menu#mainFooter-productosServicios": {
+    "props": {
+      "blockClass": "mainFooter-menu"
+    },
+    "children": [
+      "rich-text#mainFooter-productosServicios",
+      "menu-item#mainFooter-productosServicios-giftcardEmpresas",
+      "menu-item#mainFooter-productosServicios-giftcardPersonas",
+      "menu-item#mainFooter-productosServicios-productosEmpresas"
+    ]
+  },
+
+  "rich-text#mainFooter-productosServicios": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "Productos y servicios"
+    }
+  },
+
+  "menu-item#mainFooter-productosServicios-giftcardEmpresas": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-productosServicios-giftcardEmpresas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "gift-card-empresas-online",
+        "text": "Gift Card Empresas Online"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-productosServicios-giftcardPersonas": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-productosServicios-giftcardPersonas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "gift-card-personas-online",
+        "text": "Gift Card Personas Online"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-productosServicios-productosEmpresas": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-productosServicios-productosEmpresas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Productos para Empresas",
+        "text": "Productos para Empresas"
+      }
+    }
+  },
+
+  // Main Footer / Ayuda
+  "flex-layout.col#mainFooter-ayuda": {
+    "props": {
+      "blockClass": "mainFooter-col"
+    },
+    "children": ["vtex.menu@2.x:menu#mainFooter-ayuda"]
+  },
+
+  "vtex.menu@2.x:menu#mainFooter-ayuda": {
+    "props": {
+      "blockClass": "mainFooter-menu"
+    },
+    "children": [
+      "rich-text#mainFooter-ayuda",
+      "menu-item#mainFooter-ayuda-comoComprar",
+      "menu-item#mainFooter-ayuda-preguntasFrecuentes",
+      "menu-item#mainFooter-ayuda-terminosCondiciones",
+      "menu-item#mainFooter-ayuda-basesLegales"
+    ]
+  },
+
+  "rich-text#mainFooter-ayuda": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "Ayuda"
+    }
+  },
+
+  "menu-item#mainFooter-ayuda-comoComprar": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-ayuda-comoComprar",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "como-comprar",
+        "text": "¿Cómo comprar?"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-ayuda-preguntasFrecuentes": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-ayuda-preguntasFrecuentes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "preguntas-frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-ayuda-terminosCondiciones": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-ayuda-terminosCondiciones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "terminos-y-condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-ayuda-basesLegales": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-ayuda-basesLegales",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "bases-legales",
+        "text": "Bases legales concursos"
+      }
+    }
+  },
+
+
+  // Main Footer / Cuenta
+  "flex-layout.col#mainFooter-cuenta": {
+    "props": {
+      "blockClass": "mainFooter-col"
+    },
+    "children": ["vtex.menu@2.x:menu#mainFooter-cuenta"]
+  },
+
+  "vtex.menu@2.x:menu#mainFooter-cuenta": {
+    "props": {
+      "blockClass": "mainFooter-menu"
+    },
+    "children": [
+      "rich-text#mainFooter-cuenta",
+      "menu-item#mainFooter-cuenta-registrarme",
+      "menu-item#mainFooter-cuenta-perfil",
+      "menu-item#mainFooter-cuenta-pedidos"
+    ]
+  },
+
+  "rich-text#mainFooter-cuenta": {
+    "props": {
+      "blockClass": "mainFooter-title",
+      "text": "Cuenta"
+    }
+  },
+
+  "menu-item#mainFooter-cuenta-registrarme": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-cuenta-registrarme",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "registrarme",
+        "text": "Registrarme"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-cuenta-perfil": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-cuenta-perfil",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "perfil",
+        "text": "Mi perfil"
+      }
+    }
+  },
+
+  "menu-item#mainFooter-cuenta-pedidos": {
+    "props": {
+      "blockClass": "mainFooter-menu-item",
+      "id": "mainFooter-cuenta-pedidos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "pedidos",
+        "text": "Pedidos"
+      }
+    }
+  },
+
+
+
+  // Sub Footer
+  "flex-layout.row#subFooter": {
+    "props": {
+      "blockClass": "subFooter"
+    },
+    "children": [
+      "flex-layout.col#subFooter-derechos",
+      "flex-layout.col#subFooter-metodosPago"
+    ]
+  },
+
+  "flex-layout.col#subFooter-derechos": {
+    "props": {
+      "blockClass": "subFooter-derechos"
+    },
+    "children": ["rich-text#subFooter-derechos"]
+  },
+
+  "flex-layout.col#subFooter-metodosPago": {
+    "props": {
+      "blockClass": "subFooter-metodosPago"
+    },
+    "children": [
+      "rich-text#subFooter-metodosPago",
+      "image#subFooter-metodosPago"
+    ]
+  },
+
+  "rich-text#subFooter-derechos": {
+    "props": {
+      "blockClass": "subFooter-derechos",
+      "text": "2022 Gift Card Cencosud - Todos los derechos reservados"
+    }
+  },
+
+  "rich-text#subFooter-metodosPago": {
+    "props": {
+      "blockClass": "subFooter-metodosPago",
+      "text": "Métodos de pago"
+    }
+  },
+
+  "image#subFooter-metodosPago": {
+    "props": {
+      "blockClass": "subFooter-metodosPago",
+      "src": "assets/footer/metodos-pago-01.jpg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url(assets/fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-LightItalic";
+  src: url(assets/fonts/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url(assets/fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-MediumItalic";
+  src: url(assets/fonts/OpenSans-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url(assets/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-BoldItalic";
+  src: url(assets/fonts/OpenSans-BoldItalic.ttf);
+}

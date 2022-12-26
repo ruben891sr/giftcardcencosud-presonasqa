@@ -1,0 +1,25 @@
+{
+  // Home / sideBarContent / sideBar
+  "flex-layout.col#home-sideBarContent-sideBar": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar",
+      "width": "20%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#home-sideBarContent-sideBar-title",
+      "vtex.menu@2.x:menu#home-sideBarContent-sideBar-menu1",
+      "vtex.menu@2.x:menu#home-sideBarContent-sideBar-menu2",
+      "vtex.menu@2.x:menu#home-sideBarContent-sideBar-menu3",
+      "vtex.menu@2.x:menu#home-sideBarContent-sideBar-menu4"
+    ]
+  },
+
+  // Home / sideBarContent / sideBar / Title
+  "rich-text#home-sideBarContent-sideBar-title": {
+    "props": {
+      "blockClass": "home-sideBarContent-sideBar-title",
+      "text": "Filtros"
+    }
+  }
+}

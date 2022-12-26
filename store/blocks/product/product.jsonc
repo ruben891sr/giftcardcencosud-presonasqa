@@ -1,0 +1,8 @@
+{
+  "store.product": {
+    "blocks": [
+      "responsive-layout.desktop#desktop-products",
+      "responsive-layout.mobile#mobile-product"
+    ]
+  }
+}
